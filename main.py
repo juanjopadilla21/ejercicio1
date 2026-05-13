@@ -1,10 +1,12 @@
+print("Bienvenido al programa de calificaciones de estudantes")
+
 # Sistema de Calificaciones
 siguente = "si"
 
 while siguente == "si":
 
     # Entrada de datos
-    nombre = input("Ingrese el nombre del estudiante: ")
+    nombre = input("Ingrese el nombre de algun estudante estudiante: ")
 
     suma = 0
 
@@ -39,6 +41,6 @@ while siguente == "si":
     print("Estado:", notafin)
 
     # Bucle while para varios estudiantes
-    siguente = input("¿Desea ingresar otro estudiante? (si/no): ")
+    siguente = input("¿te gustaria ingresar las calificanes de otro estudiante? (si/no): ")
 
 print("HASTA LUEGO :)")
