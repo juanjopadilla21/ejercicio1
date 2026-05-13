@@ -7,7 +7,8 @@ while siguente == "si":
     nombre = input("Ingrese el nombre del estudiante: ")
 
     suma = 0
- # Bucle for para las 5 notas
+
+    # Bucle for para las 5 notas
     for i in range(1, 6):
 
         # Mensaje para contador
@@ -23,3 +24,21 @@ while siguente == "si":
     # Cálculo del promedio
     promedio = suma / 5
 
+    # Condicionales
+    if promedio >= 4.5:
+        notafin = "Excelente"
+    elif promedio >= 3.5:
+        notafin = "Aprobado"
+    else:
+        notafin = "Reprobado"
+
+    # Mostrar resultados
+    print("Resultado")
+    print("Estudiante:", nombre)
+    print("Promedio:", promedio)
+    print("Estado:", notafin)
+
+    # Bucle while para varios estudiantes
+    siguente = input("¿Desea ingresar otro estudiante? (si/no): ")
+
+print("HASTA LUEGO :)")
